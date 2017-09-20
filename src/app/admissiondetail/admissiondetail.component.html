@@ -1,0 +1,35 @@
+<div class="container _color">
+  <div class="col-sm-offset-2 col-sm-10">
+    <div class="_font">
+    <h4>Admission Detail </h4>
+    </div>
+    <div class="row">
+      <div class="table-responsive">
+      <table class="table">   
+        <thead>
+        <tr>
+        <th width=400>Name</th>
+        <th width=400>Email</th>
+        <th width=400>Mobile</th>
+        <th width=400>Address</th>
+        <th width=400>CourseType</th>
+        <th width=400>Subject</th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr  class="info" *ngFor="let adm of admission">
+          <td>{{adm.name}}</td>
+          <td>{{adm.email}}</td>
+          <td>{{adm.mobile}}</td>
+          <td>{{adm.address}}</td>
+          <td>{{adm.coursetype}}</td>
+          <td>{{adm.sub}}</td>
+          <td>
+          </td>
+          </tr>
+        </tbody>
+        </table>
+        </div>
+      </div>
+    </div>
+    </div> 

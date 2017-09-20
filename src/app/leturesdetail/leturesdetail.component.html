@@ -1,0 +1,27 @@
+<div class="container _color _font">
+  <div class="col-sm-offset-2 col-sm-10">
+    <h4>Lecture Details</h4>
+    <div class="row">
+      <div class="table-responsive">
+      <table class="table table-striped">   
+        <thead>
+        <tr>
+        <th width=400>Hall No.</th> 
+        <th width=400>Lecture Subject</th>
+        <th width=400>Lecture Date</th>
+        </tr>
+        </thead>
+          <tr  class="info" *ngFor="let lec of lect;">
+            <td>{{lec.hall_num}}</td>
+          <td>{{lec.lecture}}</td>
+          <td>{{lec.date}}</td>
+          <td>
+          <!--<button><span class="glyphicon glyphicon-pencil" (click)="edit(lec)"></span></button>
+          <button><span class="glyphicon glyphicon-remove" (click)="delete()"></span></button>-->
+          </td>
+          </tr>
+        </table>
+        </div>
+        </div>
+      </div>  
+</div> 

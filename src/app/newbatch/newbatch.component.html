@@ -1,0 +1,29 @@
+<div class="container _color">
+  <div class="col-sm-offset-2 col-sm-10">    
+    <div class="_font">
+    <h4>New Batch Details </h4>
+    </div>
+    <div class="row">
+      <div class="table-responsive">
+      <table class="table">   
+        <thead>
+        <tr>
+        <th width=400>StudentName</th>
+        <th width=400> New Batch</th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr class="info" *ngFor="let batch of newbatches">
+          <td>{{batch.name}}</td>
+          <td>{{batch.batchname}}</td>
+          <td>
+         <!-- <button (click)="edit(batch)"><span class="glyphicon glyphicon-pencil"></span></button>-->
+          <!--<button (click)="delete()"><span class="glyphicon glyphicon-remove"></span></button>-->
+          </td>
+          </tr>
+        </tbody>
+        </table>
+        </div>
+      </div>
+    </div>
+  </div>   

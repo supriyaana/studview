@@ -1,3 +1,15 @@
-<h1>
-  {{title}}
-</h1>
+
+<nav class="navbar navbar-custom">
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Student Info<span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a routerLink="/Admissiondetail" >Admission</a></li>
+    <li><a routerLink="/Feesdetail">Fees</a></li>
+    <li><a routerLink="/Existingbatch" >Existingbatch</a></li>
+    <li><a routerLink="/newbatch">New batch</a></li>
+    <li><a routerLink="/Coursedetail">Course Syllabus</a></li>
+    <li><a routerLink="/lecturesdetail">Lectures</a></li>
+  </ul> 
+</div>
+</nav>
+<router-outlet></router-outlet>
