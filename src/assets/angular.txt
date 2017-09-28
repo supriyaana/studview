@@ -1,0 +1,74 @@
+
+Angular2 Syllabus:
+1.Getting Started..
+Set up the Development Environment..
+create a new project..
+Edit your first Angular component.
+What's next?
+Project file review.
+The src folder.
+The root folder.
+Next Step.
+2.Introduction
+What you'll build.
+Up next.
+3.Hero Editor.
+Setup to develop locally.
+Keep the app transpiling and running.
+Show the hero.
+Hero object.
+Adding HTML with multi-line template strings.
+Edit the hero name.
+Two-way binding.
+Import the FormsModule.
+4.Master Detail:
+Where you left off
+Keep the app transpiling and running
+Displaying heroes
+Create heroes
+Expose heroes
+Display hero names in a template
+List heroes with ngFor
+Style the heroes
+Selecting a hero
+Handle click events
+Add a click handler to expose the selected hero
+Hide the empty detail with ngIf
+Style the selected hero
+The road you've travelled
+The road ahead
+5.Multiple Components:
+
+Where you left off
+Make a hero detail component
+
+
+Add the hero property
+The hero property is an input property
+Declare HeroDetailComponent in the AppModule
+Add the HeroDetailComponent to the AppC^omponent
+What changed?
+Review the app structure.
+
+6.Services:
+
+Where you left off
+Keep the app transpiling and running
+Creating a hero service
+Create the HeroService
+Injectable services
+Getting hero data
+Move the mock hero data
+Return mocked hero data
+Import the hero service
+Don't use new with the HeroService
+Inject the HeroService
+getHeroes() in the AppComponent
+The ngOnInit lifecycle hook
+Async services and Promises
+The hero service makes a Promise
+Act on the Promise
+Review the app structure
+The road you've travelled
+The road ahead
+

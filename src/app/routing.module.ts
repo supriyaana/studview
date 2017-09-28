@@ -8,6 +8,7 @@
     import { CoursedetailComponent } from './coursedetail/coursedetail.component';
     import { LeturesdetailComponent } from './leturesdetail/leturesdetail.component';
     import { NewbatchComponent } from './newbatch/newbatch.component';
+    import { AngularComponent } from './angular/angular.component';
 
 
     @NgModule({
@@ -15,12 +16,12 @@
             RouterModule.forRoot([
              {  path:'',redirectTo:'/Admissiondetail',pathMatch:"full" },
              {  path:'Admissiondetail',component:AdmissiondetailComponent },
-             { path:'Existingbatch',component:ExistingbatchComponent },
-             { path:'Feesdetail',component:FeesdetailsComponent },
-             { path:'Coursedetail',component:CoursedetailComponent },
-             { path:'lecturesdetail',component:LeturesdetailComponent },
-             { path:'newbatch',component:NewbatchComponent }
-
+             {  path:'Existingbatch',component:ExistingbatchComponent },
+             {  path:'Feesdetail',component:FeesdetailsComponent },
+             {  path:'Coursedetail',component:CoursedetailComponent },
+             {  path:'lecturesdetail',component:LeturesdetailComponent },
+             {  path:'newbatch',component:NewbatchComponent },
+             {  path:'angular2',component:AngularComponent }    
 
             ]),
         ],

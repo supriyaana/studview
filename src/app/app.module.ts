@@ -13,6 +13,7 @@ import { FeesdetailsComponent } from './feesdetails/feesdetails.component';
 import { CoursedetailComponent } from './coursedetail/coursedetail.component';
 import { LeturesdetailComponent } from './leturesdetail/leturesdetail.component';
 import { NewbatchComponent } from './newbatch/newbatch.component';
+import { AngularComponent } from './angular/angular.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { NewbatchComponent } from './newbatch/newbatch.component';
     CoursedetailComponent,
     LeturesdetailComponent,
     NewbatchComponent,
+    AngularComponent,
   ],
   imports: [
     BrowserModule,
